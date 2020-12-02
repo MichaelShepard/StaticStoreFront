@@ -146,24 +146,31 @@ section #top {
 }
 
 section div.hero {
-    float: center;
+    float: left;
     position: relative;
     width: 100%;
     margin: 0 0.5em 2.0em 0.5em;
     padding: 1.0em;
     background-color:#374b52;
     border: #ccc solid 1px;
-    text-align: center;
-
-}
-
-section div.hero img.heroImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display: flex;
     
+
 }
+
+.column {
+    flex: 50%;
+    }
+
+#heroHeader {
+    font-size: 5.0em;
+}
+#heroParagraph {
+    color:white;
+    font-size: 2em;
+}
+
+
 
 
 /*Main Section*/
